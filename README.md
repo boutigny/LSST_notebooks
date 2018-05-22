@@ -1,1 +1,1 @@
-Collection of iPython notebooks for LSST
+Collection of jupyter notebooks for LSST
