@@ -1,0 +1,34 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          15658733                           *
+* Queue:                          mc_debug                           *
+* Worker:                         ccwcge0002.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Tue Jul 20 17:50:45 CEST 2021      *
+* Started on:                     Tue Jul 20 17:50:57 CEST 2021      *
+**********************************************************************
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.170.3:42980'
+distributed.worker - INFO -       Start worker at:  tcp://134.158.170.3:35377
+distributed.worker - INFO -          Listening to:  tcp://134.158.170.3:35377
+distributed.worker - INFO -          dashboard at:        134.158.170.3:43634
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:37486
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.60 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-tzjyro4l
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:37486
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 46.42s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 52.78 MiB from 30922 reference cycles (threshold: 9.54 MiB)
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 182845 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker

@@ -1,0 +1,696 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          15661108                           *
+* Queue:                          mc_highmem                         *
+* Worker:                         ccwsge0967.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Tue Jul 20 19:31:17 CEST 2021      *
+* Started on:                     Tue Jul 20 19:31:23 CEST 2021      *
+**********************************************************************
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 9: e: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 10: x: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 11: p: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 12: o: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 13: r: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 14: t: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 16: M: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 17: A: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 18: L: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 19: L: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 20: O: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 21: C: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 22: _: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 23: T: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 24: R: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 25: I: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 26: M: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 27: _: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 28: T: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 29: H: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 30: R: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 31: E: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 32: S: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 33: H: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 34: O: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 35: L: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 36: D: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 37: _: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 38: =: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 39: 5: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 40: 1: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 41: 2: command not found
+/var/spool/sge/ccwsge0967/job_scripts/15661108: line 42: 0: command not found
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.170.32:42596'
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.32:34115
+distributed.worker - INFO -          Listening to: tcp://134.158.170.32:34115
+distributed.worker - INFO -          dashboard at:       134.158.170.32:41240
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-m8bm862q
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.86s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.53s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.170.32:36485
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 196, in read
+    frames_nbytes = await stream.read_bytes(fmt_size)
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3422, in _get_data
+    response = await send_recv(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 645, in send_recv
+    response = await comm.read(deserializers=deserializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 128, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc)) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - WARNING - Worker is at 90% memory usage. Pausing worker.  Process memory: 4.21 GiB -- Worker memory limit: 4.66 GiB
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 57506 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker
+/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.32:46081
+distributed.worker - INFO -          Listening to: tcp://134.158.170.32:46081
+distributed.worker - INFO -          dashboard at:       134.158.170.32:44679
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-bf07i5r5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.168.69:35839
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3422, in _get_data
+    response = await send_recv(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 645, in send_recv
+    response = await comm.read(deserializers=deserializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.168.236:46448
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 318, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 501, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3419, in _get_data
+    comm = await rpc.connect(worker)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 1010, in connect
+    comm = await connect(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 323, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://134.158.168.236:46448 after 10 s
+distributed.worker - INFO - Can't find dependencies for key ('fix-overlap-and_-a2c92d0a7b4404ef4989bfc49cea49a2', 155)
+distributed.worker - INFO - Dependent not found: ('set_index-de5055cf7981b50e2b876d80000d7d25', 155) 0 .  Asking scheduler
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.168.66:39671
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 318, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 501, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3419, in _get_data
+    comm = await rpc.connect(worker)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 1010, in connect
+    comm = await connect(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 323, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://134.158.168.66:39671 after 10 s
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 58946 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.32:34804
+distributed.worker - INFO -          Listening to: tcp://134.158.170.32:34804
+distributed.worker - INFO -          dashboard at:       134.158.170.32:34254
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-63drdtxh
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.26s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 528.12 MiB from 103 reference cycles (threshold: 9.54 MiB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 7.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.170.29:45451
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3419, in _get_data
+    comm = await rpc.connect(worker)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 1010, in connect
+    comm = await connect(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 323, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://134.158.170.29:45451 after 10 s
+distributed.worker - INFO - Can't find dependencies for key ('fix-overlap-and_-a2c92d0a7b4404ef4989bfc49cea49a2', 103)
+distributed.worker - INFO - Dependent not found: ('set_index-de5055cf7981b50e2b876d80000d7d25', 102) 0 .  Asking scheduler
+distributed.worker - ERROR - failed during get data with tcp://134.158.170.32:34804 -> tcp://134.158.170.41:40621
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 971, in _handle_write
+    num_bytes = self.write_to_fd(self._write_buffer.peek(size))
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1148, in write_to_fd
+    return self.socket.send(data)  # type: ignore
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://134.158.170.41:50034': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.171.73:41993
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 200, in read
+    n = await stream.read_into(frames)
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3422, in _get_data
+    response = await send_recv(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 645, in send_recv
+    response = await comm.read(deserializers=deserializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 128, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc)) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.170.28:36452
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 285, in connect
+    comm = await asyncio.wait_for(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 391, in connect
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <distributed.comm.tcp.TCPConnector object at 0x2b2c9439eb80>: ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3419, in _get_data
+    comm = await rpc.connect(worker)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 1010, in connect
+    comm = await connect(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 307, in connect
+    raise IOError(
+OSError: Timed out trying to connect to tcp://134.158.170.28:36452 after 10 s
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 528.54 MiB from 299 reference cycles (threshold: 9.54 MiB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.92s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.168.195:40398
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 318, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 501, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3419, in _get_data
+    comm = await rpc.connect(worker)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 1010, in connect
+    comm = await connect(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 323, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://134.158.168.195:40398 after 10 s
+distributed.worker - INFO - Can't find dependencies for key ('fix-overlap-and_-a2c92d0a7b4404ef4989bfc49cea49a2', 191)
+distributed.worker - INFO - Dependent not found: ('set_index-de5055cf7981b50e2b876d80000d7d25', 191) 0 .  Asking scheduler
+distributed.utils_perf - INFO - full garbage collection released 563.43 MiB from 76 reference cycles (threshold: 9.54 MiB)
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 59111 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.32:33868
+distributed.worker - INFO -          Listening to: tcp://134.158.170.32:33868
+distributed.worker - INFO -          dashboard at:       134.158.170.32:39155
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-erzbrs04
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 527.52 MiB from 27 reference cycles (threshold: 9.54 MiB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 59712 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.32:38742
+distributed.worker - INFO -          Listening to: tcp://134.158.170.32:38742
+distributed.worker - INFO -          dashboard at:       134.158.170.32:37183
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-xz_5y9i2
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.56s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - failed during get data with tcp://134.158.170.32:38742 -> tcp://134.158.170.39:42192
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 196, in read
+    frames_nbytes = await stream.read_bytes(fmt_size)
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 128, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc)) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://134.158.170.39:46700': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.168.193:33119
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 465, in wait_for
+    fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    await asyncio.wait_for(comm.write(local_info), time_left())
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 467, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3419, in _get_data
+    comm = await rpc.connect(worker)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 1010, in connect
+    comm = await connect(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 323, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://134.158.168.193:33119 after 10 s
+distributed.worker - ERROR - failed during get data with tcp://134.158.170.32:38742 -> tcp://134.158.170.28:34173
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 196, in read
+    frames_nbytes = await stream.read_bytes(fmt_size)
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 128, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc)) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.core - INFO - Lost connection to 'tcp://134.158.170.28:51790': in <closed TCP>: Stream is closed
+distributed.worker - ERROR - failed during get data with tcp://134.158.170.32:38742 -> tcp://134.158.170.41:43846
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://134.158.170.41:54514': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.comm.tcp - INFO - Connection closed before handshake completed
+distributed.worker - ERROR - failed during get data with tcp://134.158.170.32:38742 -> tcp://134.158.168.225:38102
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://134.158.168.225:36776': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 59890 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.32:41107
+distributed.worker - INFO -          Listening to: tcp://134.158.170.32:41107
+distributed.worker - INFO -          dashboard at:       134.158.170.32:46045
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-_zblwict
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 565.78 MiB from 99 reference cycles (threshold: 9.54 MiB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.17s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.170.49:40260
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 318, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3419, in _get_data
+    comm = await rpc.connect(worker)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 1010, in connect
+    comm = await connect(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/core.py", line 323, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://134.158.170.49:40260 after 10 s
+distributed.worker - INFO - Can't find dependencies for key ('fix-overlap-and_-a2c92d0a7b4404ef4989bfc49cea49a2', 151)
+distributed.worker - INFO - Dependent not found: ('set_index-de5055cf7981b50e2b876d80000d7d25', 151) 0 .  Asking scheduler
+distributed.utils_perf - INFO - full garbage collection released 532.94 MiB from 48 reference cycles (threshold: 9.54 MiB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.04s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.168.180:43235
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 200, in read
+    n = await stream.read_into(frames)
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3422, in _get_data
+    response = await send_recv(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 645, in send_recv
+    response = await comm.read(deserializers=deserializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 128, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc)) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.worker - INFO - Can't find dependencies for key ('fix-overlap-and_-a2c92d0a7b4404ef4989bfc49cea49a2', 228)
+distributed.utils_perf - INFO - full garbage collection released 13.61 MiB from 0 reference cycles (threshold: 9.54 MiB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://134.158.168.194:37213
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 200, in read
+    n = await stream.read_into(frames)
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 2169, in gather_dep
+    response = await get_data_from_worker(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3442, in get_data_from_worker
+    return await retry_operation(_get_data, operation="get_data_from_worker")
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 385, in retry_operation
+    return await retry(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/utils_comm.py", line 370, in retry
+    return await coro()
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 3422, in _get_data
+    response = await send_recv(
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/core.py", line 645, in send_recv
+    response = await comm.read(deserializers=deserializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 128, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc)) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.utils_perf - INFO - full garbage collection released 170.18 MiB from 123 reference cycles (threshold: 9.54 MiB)
+distributed.worker - ERROR - failed during get data with tcp://134.158.170.32:41107 -> tcp://134.158.170.42:46169
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://134.158.170.42:41716': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.93s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.

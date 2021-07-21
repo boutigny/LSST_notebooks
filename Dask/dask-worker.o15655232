@@ -1,0 +1,155 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          15655232                           *
+* Queue:                          mc_highmem                         *
+* Worker:                         ccwsge0349.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Tue Jul 20 16:54:55 CEST 2021      *
+* Started on:                     Tue Jul 20 16:55:02 CEST 2021      *
+**********************************************************************
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.168.207:37126'
+distributed.worker - INFO -       Start worker at: tcp://134.158.168.207:42993
+distributed.worker - INFO -          Listening to: tcp://134.158.168.207:42993
+distributed.worker - INFO -          dashboard at:      134.158.168.207:37817
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-ayucn6dx
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 22.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 403.86 MiB from 97 reference cycles (threshold: 9.54 MiB)
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 44394 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at: tcp://134.158.168.207:35041
+distributed.worker - INFO -          Listening to: tcp://134.158.168.207:35041
+distributed.worker - INFO -          dashboard at:      134.158.168.207:35372
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-iu5rrja4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 545.23 MiB from 248 reference cycles (threshold: 9.54 MiB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.01s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - failed during get data with tcp://134.158.168.207:35041 -> tcp://134.158.168.193:36237
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://134.158.168.193:43840': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - ERROR - failed during get data with tcp://134.158.168.207:35041 -> tcp://134.158.171.67:43558
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://134.158.171.67:49596': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.comm.tcp - INFO - Connection closed before handshake completed
+distributed.utils_perf - INFO - full garbage collection released 505.04 MiB from 27 reference cycles (threshold: 9.54 MiB)
+distributed.worker - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 3.88 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Worker is at 56% memory usage. Resuming worker. Process memory: 2.62 GiB -- Worker memory limit: 4.66 GiB
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.28s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - failed during get data with tcp://134.158.168.207:35041 -> tcp://134.158.172.185:46165
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://134.158.172.185:51764': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 3.29 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 3.79 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 3.79 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 3.71 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 3.71 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 3.68 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 3.87 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 3.87 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Memory use is high but worker has no data to store to disk.  Perhaps some other process is leaking memory?  Process memory: 4.01 GiB -- Worker memory limit: 4.66 GiB
+distributed.worker - WARNING - Worker is at 69% memory usage. Resuming worker. Process memory: 3.23 GiB -- Worker memory limit: 4.66 GiB

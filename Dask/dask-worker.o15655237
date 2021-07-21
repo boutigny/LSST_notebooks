@@ -1,0 +1,60 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          15655237                           *
+* Queue:                          mc_highmem                         *
+* Worker:                         ccwsge0959.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Tue Jul 20 16:54:55 CEST 2021      *
+* Started on:                     Tue Jul 20 16:55:01 CEST 2021      *
+**********************************************************************
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.170.24:42523'
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.24:35704
+distributed.worker - INFO -          Listening to: tcp://134.158.170.24:35704
+distributed.worker - INFO -          dashboard at:       134.158.170.24:41671
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-_smj_nib
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 5391 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.24:36343
+distributed.worker - INFO -          Listening to: tcp://134.158.170.24:36343
+distributed.worker - INFO -          dashboard at:       134.158.170.24:44272
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-wl4qtmpz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 101.98 MiB from 54 reference cycles (threshold: 9.54 MiB)
+distributed.nanny - WARNING - Worker exceeded 95% memory budget. Restarting
+distributed.nanny - INFO - Worker process 7933 was killed by signal 15
+distributed.nanny - WARNING - Restarting worker
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.24:44099
+distributed.worker - INFO -          Listening to: tcp://134.158.170.24:44099
+distributed.worker - INFO -          dashboard at:       134.158.170.24:45565
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-nmj4fsc_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:45717
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection

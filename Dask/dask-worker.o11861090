@@ -1,0 +1,29 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          11861090                           *
+* Queue:                          mc_highmem_huge                    *
+* Worker:                         ccwsge1347.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Mon Jun 28 14:14:09 CEST 2021      *
+* Started on:                     Mon Jun 28 14:14:20 CEST 2021      *
+**********************************************************************
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.171.218:41704'
+distributed.worker - INFO -       Start worker at: tcp://134.158.171.218:37399
+distributed.worker - INFO -          Listening to: tcp://134.158.171.218:37399
+distributed.worker - INFO -          dashboard at:      134.158.171.218:33757
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:45558
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    5.00 GB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/dask-worker-space/worker-6jevurgx
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:45558
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection

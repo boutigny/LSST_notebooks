@@ -1,0 +1,121 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          15680661                           *
+* Queue:                          mc_highmem                         *
+* Worker:                         ccwsge0994.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Wed Jul 21 10:17:08 CEST 2021      *
+* Started on:                     Wed Jul 21 10:17:11 CEST 2021      *
+**********************************************************************
+coucou
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.170.59:36766'
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-6l8wzggx', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-yjw9zwqn', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-hsao0bvd', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-8fpa2rc2', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-j4s_4mge', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-nzsycuy6', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-1lri5g5o', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-9vo0kgwd', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-2smbghtt', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-_4oldx3t', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-6ptk2dmf', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-4z130ttx', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-zxkcmets', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-c09lcid8', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-20m29daj', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-a2ih11wg', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-s2tmkeqq', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-p5ki9f7z', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-j1kmlhqn', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-gpa7wep1', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-hul_u5x6', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-zh5ycf3p', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-3jz1tx86', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-405meijj', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-cnshv5k5', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-4wq9x82l', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-w86i1g6x', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-58uyosp9', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-ep988tkt', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-flsxqy1x', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-6u6p9i39', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-rxlrc4hk', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-9qmi3l6o', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-9r8np7a0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-70a1tebj', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-k0uewxzh', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-hwfa91u4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-hrfr2xsc', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-3b2ulq5f', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-bq5yj5xy', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-c5trscxe', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-cpw4o4la', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-7d4kd8rr', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-l7vshss5', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-jvwq5lve', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-q1dpp7dq', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-4vmhwohw', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-32jnefof', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-km43ptpt', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-k8bpu_r1', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-dddwnww9', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-tb019h2b', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-nyv8x2ah', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-rftfjn42', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-q3wb4wun', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-rgg7l4xb', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-nnr00a69', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-dbz8z8tt', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-vxjwd6be', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-6y1basw0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-09_4_65s', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-c5fwjjt4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-d6j4oy5n', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-osbt7k9q', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-x6ci0461', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-x_44x12g', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-hg3_r04y', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-4_96axrd', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-uxc62uqm', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-xdrk26wa', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-8yxgo4n5', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-spgae7ix', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-whg3l4fw', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-4gmcaqzr', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-7_b5wa7_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-40vdvqks', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-88gy_e35', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-4me4o9y_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-chtsjlr3', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-he90nmlq', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-74pohgyk', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-lw6woyz_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-sb8zbcsk', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-cl_f49lq', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-e_x3_w1a', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-kpdmzzvy', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-ueugenf2', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-i_yb6x5n', purging
+/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://134.158.170.59:46841
+distributed.worker - INFO -          Listening to: tcp://134.158.170.59:46841
+distributed.worker - INFO -          dashboard at:       134.158.170.59:35578
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:34819
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.66 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-kd236b4_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:34819
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.99s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.

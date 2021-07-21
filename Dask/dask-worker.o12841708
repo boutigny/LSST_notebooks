@@ -1,0 +1,29 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          12841708                           *
+* Queue:                          mc_highmem                         *
+* Worker:                         ccwsge0401.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Mon Jul 05 15:29:38 CEST 2021      *
+* Started on:                     Mon Jul 05 15:29:45 CEST 2021      *
+**********************************************************************
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.168.67:36716'
+distributed.worker - INFO -       Start worker at: tcp://134.158.168.67:35985
+distributed.worker - INFO -          Listening to: tcp://134.158.168.67:35985
+distributed.worker - INFO -          dashboard at:       134.158.168.67:45445
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.25:42716
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    5.00 GB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/dask-worker-space/worker-sfv1edct
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.25:42716
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection

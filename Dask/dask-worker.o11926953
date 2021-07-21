@@ -1,0 +1,61 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          11926953                           *
+* Queue:                          mc_highmem_huge                    *
+* Worker:                         ccwsge1347.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Tue Jun 29 14:43:46 CEST 2021      *
+* Started on:                     Tue Jun 29 14:43:56 CEST 2021      *
+**********************************************************************
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.171.218:38546'
+distributed.worker - INFO -       Start worker at: tcp://134.158.171.218:35336
+distributed.worker - INFO -          Listening to: tcp://134.158.171.218:35336
+distributed.worker - INFO -          dashboard at:      134.158.171.218:41209
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:33810
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    5.00 GB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/dask-worker-space/worker-z3801azd
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:33810
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.15s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Stopping worker at tcp://134.158.171.218:35336
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Closing Nanny at 'tcp://134.158.171.218:38546'
+distributed.dask_worker - INFO - End worker
+
+**********************************************************************
+* Submitted on:                   Tue Jun 29 14:43:46 CEST 2021      *
+* Started on:                     Tue Jun 29 14:43:56 CEST 2021      *
+* Ended on:                       Tue Jun 29 15:59:13 CEST 2021      *
+* Exit status:                    0                                  *
+**********************************************************************
+* Requested                                                          *
+*   CPU cores:                    1 core(s)                          *
+*   CPU time:                     144:00:00 (518400 seconds) (1)     *
+**********************************************************************
+* Consumed                                                           *
+*   wallclock:                    01:15:17 (4517 seconds)            *
+*   CPU time:                     00:06:22 (382 seconds)             *
+*   CPU scaling factor:           11.33                              *
+*   normalized CPU time:          01:12:10 (4330 HS06 seconds)       *
+*   CPU efficiency:               08 % (2)                           *
+*   vmem:                         3.569 GB (3)                       *
+*   maxvmem:                      3.569 GB (3)                       *
+*   maxrss:                       1.024 GB (3)                       *
+**********************************************************************
+Notes:
+(1) Formula: requested CPU time * requested CPU cores
+(2) Formula: CPU time / ( wallclock * requested CPU cores )
+(3) See man sge_accounting
+For more information: qacct -j 11926953                         

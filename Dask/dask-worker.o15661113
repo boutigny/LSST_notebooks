@@ -1,0 +1,109 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          15661113                           *
+* Queue:                          long                               *
+* Worker:                         ccwsge0335.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Tue Jul 20 19:31:17 CEST 2021      *
+* Started on:                     Tue Jul 20 19:31:24 CEST 2021      *
+**********************************************************************
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 9: e: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 10: x: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 11: p: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 12: o: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 13: r: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 14: t: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 16: M: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 17: A: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 18: L: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 19: L: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 20: O: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 21: C: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 22: _: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 23: T: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 24: R: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 25: I: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 26: M: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 27: _: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 28: T: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 29: H: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 30: R: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 31: E: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 32: S: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 33: H: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 34: O: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 35: L: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 36: D: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 37: _: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 38: =: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 39: 5: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 40: 1: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 41: 2: command not found
+/var/spool/sge/ccwsge0335/job_scripts/15661113: line 42: 0: command not found
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.168.193:35858'
+distributed.worker - INFO -       Start worker at: tcp://134.158.168.193:40116
+distributed.worker - INFO -          Listening to: tcp://134.158.168.193:40116
+distributed.worker - INFO -          dashboard at:      134.158.168.193:37321
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.60 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-lvel9q09
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:35668
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.comm.tcp - INFO - Connection closed before handshake completed
+distributed.core - INFO - Event loop was unresponsive in Worker for 28.92s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - failed during get data with tcp://134.158.168.193:40116 -> tcp://134.158.168.195:35795
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://134.158.168.195:45416': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.comm.tcp - INFO - Connection closed before handshake completed
+distributed.comm.tcp - INFO - Connection closed before handshake completed
+distributed.comm.tcp - INFO - Connection closed before handshake completed
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.99s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 616.25 MiB from 108 reference cycles (threshold: 9.54 MiB)
+distributed.worker - ERROR - failed during get data with tcp://134.158.168.193:40116 -> tcp://134.158.168.194:40453
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/worker.py", line 1366, in get_data
+    response = await comm.read(deserializers=serializers)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 206, in read
+    convert_stream_closed_error(self, e)
+  File "/sps/lsst/users/boutigny/conda_envs/desc_2/lib/python3.8/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://134.158.168.194:41226': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.32s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.

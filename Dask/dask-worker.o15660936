@@ -1,0 +1,94 @@
+**********************************************************************
+*                     Grid Engine Batch System                       *
+*              IN2P3 Computing Centre, Villeurbanne FR               *
+**********************************************************************
+* User:                           boutigny                           *
+* Group:                          lsst                               *
+* Jobname:                        dask-worker                        *
+* JobID:                          15660936                           *
+* Queue:                          mc_debug                           *
+* Worker:                         ccwcge0002.in2p3.fr                *
+* Operating system:               Linux 3.10.0-1160.25.1.el7.x86_64  *
+* Project:                        P_lsst                             *
+**********************************************************************
+* Submitted on:                   Tue Jul 20 19:22:19 CEST 2021      *
+* Started on:                     Tue Jul 20 19:22:25 CEST 2021      *
+**********************************************************************
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 9: e: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 10: x: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 11: p: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 12: o: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 13: r: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 14: t: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 16: M: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 17: A: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 18: L: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 19: L: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 20: O: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 21: C: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 22: _: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 23: T: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 24: R: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 25: I: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 26: M: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 27: _: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 28: T: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 29: H: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 30: R: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 31: E: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 32: S: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 33: H: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 34: O: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 35: L: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 36: D: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 37: _: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 38: =: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 39: 5: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 40: 1: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 41: 2: command not found
+/var/spool/sge/ccwcge0002/job_scripts/15660936: line 42: 0: command not found
+distributed.nanny - INFO -         Start Nanny at: 'tcp://134.158.170.3:35866'
+distributed.worker - INFO -       Start worker at:  tcp://134.158.170.3:33589
+distributed.worker - INFO -          Listening to:  tcp://134.158.170.3:33589
+distributed.worker - INFO -          dashboard at:        134.158.170.3:39858
+distributed.worker - INFO - Waiting to connect to:  tcp://134.158.48.24:38904
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   4.60 GiB
+distributed.worker - INFO -       Local Directory: /pbs/throng/lsst/users/boutigny/LSST_notebooks/Dask/dask-worker-space/worker-15a7hok9
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://134.158.48.24:38904
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - INFO - Stopping worker at tcp://134.158.170.3:33589
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Closing Nanny at 'tcp://134.158.170.3:35866'
+distributed.dask_worker - INFO - End worker
+
+**********************************************************************
+* Submitted on:                   Tue Jul 20 19:22:19 CEST 2021      *
+* Started on:                     Tue Jul 20 19:22:25 CEST 2021      *
+* Ended on:                       Tue Jul 20 19:44:08 CEST 2021      *
+* Exit status:                    0                                  *
+**********************************************************************
+* Requested                                                          *
+*   CPU cores:                    1 core(s)                          *
+*   CPU time:                     05:00:00 (18000 seconds) (1)       *
+**********************************************************************
+* Consumed                                                           *
+*   wallclock:                    00:21:43 (1303 seconds)            *
+*   CPU time:                     00:01:16 (76 seconds)              *
+*   CPU scaling factor:           11.33                              *
+*   normalized CPU time:          00:14:24 (864 HS06 seconds)        *
+*   CPU efficiency:               05 % (2)                           *
+*   vmem:                         2.110 GB (3)                       *
+*   maxvmem:                      2.110 GB (3)                       *
+*   maxrss:                       175.992 MB (3)                     *
+**********************************************************************
+Notes:
+(1) Formula: requested CPU time * requested CPU cores
+(2) Formula: CPU time / ( wallclock * requested CPU cores )
+(3) See man sge_accounting
+For more information: qacct -j 15660936                         
